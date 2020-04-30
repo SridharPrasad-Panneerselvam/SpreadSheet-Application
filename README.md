@@ -1,4 +1,4 @@
-                                                            ASSIGNMENT-6    
+  
 
 
 Name - SRIDHAR PRASAD PANNEERSELVAM
@@ -32,7 +32,7 @@ Should have .gitignore, ReadMe.md files.
 ReadMe.md file should have markdown with project description and instructions to run the project.
 
 ## Installation
-1. Clone the repository `git clone https://github.com/neu-mis-info6150-spring-2020/assignment-6-SridharPrasadPanneerselvam.git.
+1. Clone the repository `git clone https://github.com/SridharPrasad-Panneerselvam.git.
 2. Navigate to project directory 
 3. Run using code
 
