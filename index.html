@@ -1,0 +1,44 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <!-- The title of the assignment tag -->
+    <title>SpreadSheet</title>
+    <!-- calling the css file -->
+    <link href="styles/main.css" rel="stylesheet">
+</head>
+
+<body>
+    <!-- Heading tag -->
+    <div class="heading">
+        <h1>SpreadSheet Application</h1>
+    </div>
+    <!-- Div blocks to cluster all the functionalities in the spreadsheet -->
+    <!-- Div for addition of all buttons -->
+    <div class="allButtons">
+        <button id="addRow">Add Row</button>
+        <button id="addColumn">Add Column</button>
+        <button id="deleteRow">Delete Row</button>
+        <button id="deleteColumn">Delete Column</button>
+        <button id="exportCsv">Export CSV</button>
+        <button id="uploadCsv">Upload CSV</button>
+        <br>
+    </div>
+    <div id="upload" class="second">
+        <img src="images/close1.png" id="closeButton" width="30px" height="30px">
+        <p> Please Upload your file </p>
+        <br>
+        <div class="uploadArea">
+            <input type="file" id="fileUpload" class="buttonUpload" />
+            <input type="button" id="CSVUpload" value="Upload CSV" class="buttonUpload" />
+        </div>
+        <br>
+    </div>
+    <br><br>
+    <!-- Adding the RxJS framework -->
+    <script src="https://unpkg.com/rxjs/bundles/rxjs.umd.min.js"></script>
+    <!-- calling the javascript file -->
+    <script src="myScript1.js"></script>
+    <br><br>
+</body>
+
+</html>

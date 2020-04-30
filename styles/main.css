@@ -1,0 +1,99 @@
+/* Class selector to style the heading */
+.heading{
+    font-size: large;
+    font-family: 'Times New Roman', Times, serif;
+    text-align: center;
+}
+
+/* //Styling for all the buttons */
+button{
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    cursor: pointer;
+    display: inline-flex;
+    font-size: medium;
+    background-color: lightgray;
+    border-collapse: collapse;
+    height: 30px;
+    border-radius: 10px;
+    padding: 5px;
+    border-color: darkgray;
+}
+
+/* Styling for the heading */
+.heading{
+    background-color: lightgray;
+}
+
+.allButtons{
+    margin-left: 29.5%;
+    margin-right: 20%;;
+    
+}
+
+/* Styling for the spreadsheet table  */
+table {
+    width: 100%;
+    font: 17px Calibri;
+}
+
+/* Styling for the table elements */
+table, th, td, tr {
+    border: solid 1px #DDD;
+    border-collapse: collapse;
+    padding: 2px 3px;
+    text-align: center;
+}
+
+/* Styling for the highlighted rows or columns */
+.highlight{
+    background-color: lightgray;
+}
+
+.upload{
+    margin-right: 37%;
+    margin-left: 37%;
+}
+
+/* //hovering of the buttons */
+button:hover{
+    color: gray;
+}
+
+/* styling when upload button is click (popup windows) */
+.second{
+    height: 13%;
+    opacity:.95;
+    top:9%;
+    display:none;
+    position:fixed;
+    background-color:lightgray;
+    width: 98.9%;
+    }
+    
+ /* styling of the p tag     */
+.second > p{
+    color:black;
+    text-align: center;
+}
+
+/* styling required for image */
+.second > img {
+position:absolute;
+right:-1px;
+top:-1px;
+cursor:pointer
+}
+
+.uploadArea{
+    margin-left: 37%;
+}
+
+/* styling of the upload button */
+.buttonUpload{
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    border-radius: 8px;
+    font-size: medium;
+    cursor: pointer;
+    border-color: darkgray;
+    
+}
